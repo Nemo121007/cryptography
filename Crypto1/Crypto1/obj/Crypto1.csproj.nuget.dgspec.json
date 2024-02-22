@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Saveliy\\Documents\\Crypto\\Crypto1\\Crypto1\\Crypto1.csproj": {}
+    "C:\\Users\\Saveliy\\Documents\\cryptography\\Crypto1\\Crypto1\\Crypto1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Saveliy\\Documents\\Crypto\\Crypto1\\Crypto1\\Crypto1.csproj": {
+    "C:\\Users\\Saveliy\\Documents\\cryptography\\Crypto1\\Crypto1\\Crypto1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Saveliy\\Documents\\Crypto\\Crypto1\\Crypto1\\Crypto1.csproj",
+        "projectUniqueName": "C:\\Users\\Saveliy\\Documents\\cryptography\\Crypto1\\Crypto1\\Crypto1.csproj",
         "projectName": "Crypto1",
-        "projectPath": "C:\\Users\\Saveliy\\Documents\\Crypto\\Crypto1\\Crypto1\\Crypto1.csproj",
+        "projectPath": "C:\\Users\\Saveliy\\Documents\\cryptography\\Crypto1\\Crypto1\\Crypto1.csproj",
         "packagesPath": "C:\\Users\\Saveliy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Saveliy\\Documents\\Crypto\\Crypto1\\Crypto1\\obj\\",
+        "outputPath": "C:\\Users\\Saveliy\\Documents\\cryptography\\Crypto1\\Crypto1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
