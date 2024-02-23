@@ -4,7 +4,8 @@ using System.Text;
 
 class test
 {
-
+    // Разрядность (в битах) переменных, использвемых для кодирования
+    static int numberDigits = 256;
     static Random random = new Random();
     static void Main()
     {
@@ -82,7 +83,7 @@ class test
     static BigInteger GenerateRandomPrime(BigInteger p)
     {
         // Длинна числа в битах
-        int bitLength = 256; 
+        int bitLength = numberDigits; 
         // Сгенерировать случайное большое число
         BigInteger randomNum = BigIntegerGenRandom(3, (BigInteger)Math.Pow(2, bitLength));
 
@@ -166,6 +167,8 @@ class test
     {
         BigInteger x, y;
 
+        // 50 взято как небольшое число, способное выступать верхней границей экспоненты 
+        // При необходимости заменить на любое другое число
         int e = random.Next(3, 50);
         while (e % 2 == 0)
             e = random.Next(3, 50);

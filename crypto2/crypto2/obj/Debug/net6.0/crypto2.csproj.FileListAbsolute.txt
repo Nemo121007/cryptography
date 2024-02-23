@@ -1,0 +1,15 @@
+C:\Users\Saveliy\Documents\cryptography\crypto2\crypto2\bin\Debug\net6.0\crypto2.exe
+C:\Users\Saveliy\Documents\cryptography\crypto2\crypto2\bin\Debug\net6.0\crypto2.deps.json
+C:\Users\Saveliy\Documents\cryptography\crypto2\crypto2\bin\Debug\net6.0\crypto2.runtimeconfig.json
+C:\Users\Saveliy\Documents\cryptography\crypto2\crypto2\bin\Debug\net6.0\crypto2.dll
+C:\Users\Saveliy\Documents\cryptography\crypto2\crypto2\bin\Debug\net6.0\crypto2.pdb
+C:\Users\Saveliy\Documents\cryptography\crypto2\crypto2\obj\Debug\net6.0\crypto2.csproj.AssemblyReference.cache
+C:\Users\Saveliy\Documents\cryptography\crypto2\crypto2\obj\Debug\net6.0\crypto2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saveliy\Documents\cryptography\crypto2\crypto2\obj\Debug\net6.0\crypto2.AssemblyInfoInputs.cache
+C:\Users\Saveliy\Documents\cryptography\crypto2\crypto2\obj\Debug\net6.0\crypto2.AssemblyInfo.cs
+C:\Users\Saveliy\Documents\cryptography\crypto2\crypto2\obj\Debug\net6.0\crypto2.csproj.CoreCompileInputs.cache
+C:\Users\Saveliy\Documents\cryptography\crypto2\crypto2\obj\Debug\net6.0\crypto2.dll
+C:\Users\Saveliy\Documents\cryptography\crypto2\crypto2\obj\Debug\net6.0\refint\crypto2.dll
+C:\Users\Saveliy\Documents\cryptography\crypto2\crypto2\obj\Debug\net6.0\crypto2.pdb
+C:\Users\Saveliy\Documents\cryptography\crypto2\crypto2\obj\Debug\net6.0\crypto2.genruntimeconfig.cache
+C:\Users\Saveliy\Documents\cryptography\crypto2\crypto2\obj\Debug\net6.0\ref\crypto2.dll
