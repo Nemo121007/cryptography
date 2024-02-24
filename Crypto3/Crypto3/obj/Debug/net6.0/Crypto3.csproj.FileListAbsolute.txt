@@ -1,0 +1,15 @@
+C:\Users\Saveliy\Documents\cryptography\Crypto3\Crypto3\obj\Debug\net6.0\Crypto3.csproj.AssemblyReference.cache
+C:\Users\Saveliy\Documents\cryptography\Crypto3\Crypto3\obj\Debug\net6.0\Crypto3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saveliy\Documents\cryptography\Crypto3\Crypto3\obj\Debug\net6.0\Crypto3.AssemblyInfoInputs.cache
+C:\Users\Saveliy\Documents\cryptography\Crypto3\Crypto3\obj\Debug\net6.0\Crypto3.AssemblyInfo.cs
+C:\Users\Saveliy\Documents\cryptography\Crypto3\Crypto3\obj\Debug\net6.0\Crypto3.csproj.CoreCompileInputs.cache
+C:\Users\Saveliy\Documents\cryptography\Crypto3\Crypto3\bin\Debug\net6.0\Crypto3.exe
+C:\Users\Saveliy\Documents\cryptography\Crypto3\Crypto3\bin\Debug\net6.0\Crypto3.deps.json
+C:\Users\Saveliy\Documents\cryptography\Crypto3\Crypto3\bin\Debug\net6.0\Crypto3.runtimeconfig.json
+C:\Users\Saveliy\Documents\cryptography\Crypto3\Crypto3\bin\Debug\net6.0\Crypto3.dll
+C:\Users\Saveliy\Documents\cryptography\Crypto3\Crypto3\bin\Debug\net6.0\Crypto3.pdb
+C:\Users\Saveliy\Documents\cryptography\Crypto3\Crypto3\obj\Debug\net6.0\Crypto3.dll
+C:\Users\Saveliy\Documents\cryptography\Crypto3\Crypto3\obj\Debug\net6.0\refint\Crypto3.dll
+C:\Users\Saveliy\Documents\cryptography\Crypto3\Crypto3\obj\Debug\net6.0\Crypto3.pdb
+C:\Users\Saveliy\Documents\cryptography\Crypto3\Crypto3\obj\Debug\net6.0\Crypto3.genruntimeconfig.cache
+C:\Users\Saveliy\Documents\cryptography\Crypto3\Crypto3\obj\Debug\net6.0\ref\Crypto3.dll
