@@ -1,0 +1,48 @@
+using System;
+using System.IO;
+using System.Security.Cryptography;
+
+class Program
+{
+    static void Main()
+    {
+        // Генерация ключей
+        using (var rsa = new RSACryptoServiceProvider(2048))
+        {
+            // Сохранение открытого ключа в файл
+            string publicKeyXml = rsa.ToXmlString(false);
+            File.WriteAllText("public_key.xml", publicKeyXml);
+
+            // Сохранение закрытого ключа в файл
+            string privateKeyXml = rsa.ToXmlString(true);
+            File.WriteAllText("private_key.xml", privateKeyXml);
+        }
+
+        // Чтение ключей из файла
+        string publicKeyXmlFromFile = File.ReadAllText("public_key.xml");
+        string privateKeyXmlFromFile = File.ReadAllText("private_key.xml");
+
+        // Использование ключей (пример)
+        using (var rsa = new RSACryptoServiceProvider())
+        {
+            // Загрузка открытого ключа
+            rsa.FromXmlString(publicKeyXmlFromFile);
+
+            // Шифрование сообщения с использованием открытого ключа
+            byte[] dataToEncrypt = Encoding.UTF8.GetBytes("Hello, RSA!");
+            byte[] encryptedData = rsa.Encrypt(dataToEncrypt, false);
+
+            // Вывод зашифрованного сообщения
+            Console.WriteLine("Encrypted Message: " + Convert.ToBase64String(encryptedData));
+
+            // Загрузка закрытого ключа
+            rsa.FromXmlString(privateKeyXmlFromFile);
+
+            // Расшифрование зашифрованного сообщения с использованием закрытого ключа
+            byte[] decryptedData = rsa.Decrypt(encryptedData, false);
+
+            // Вывод расшифрованного сообщения
+            Console.WriteLine("Decrypted Message: " + Encoding.UTF8.GetString(decryptedData));
+        }
+    }
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Saveliy\\Documents\\cryptography\\crypto2\\crypto2\\Crypto2.csproj": {}
+    "C:\\Users\\Saveliy\\Documents\\cryptography\\Crypto2\\crypto2\\Crypto2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Saveliy\\Documents\\cryptography\\crypto2\\crypto2\\Crypto2.csproj": {
+    "C:\\Users\\Saveliy\\Documents\\cryptography\\Crypto2\\crypto2\\Crypto2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Saveliy\\Documents\\cryptography\\crypto2\\crypto2\\Crypto2.csproj",
+        "projectUniqueName": "C:\\Users\\Saveliy\\Documents\\cryptography\\Crypto2\\crypto2\\Crypto2.csproj",
         "projectName": "Crypto2",
-        "projectPath": "C:\\Users\\Saveliy\\Documents\\cryptography\\crypto2\\crypto2\\Crypto2.csproj",
+        "projectPath": "C:\\Users\\Saveliy\\Documents\\cryptography\\Crypto2\\crypto2\\Crypto2.csproj",
         "packagesPath": "C:\\Users\\Saveliy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Saveliy\\Documents\\cryptography\\crypto2\\crypto2\\obj\\",
+        "outputPath": "C:\\Users\\Saveliy\\Documents\\cryptography\\Crypto2\\crypto2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

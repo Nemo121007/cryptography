@@ -305,23 +305,23 @@ class test
     /// </summary>
     /// <param name="baseNumber">Число</param>
     /// <param name="exponent">Степень</param>
-    /// <param name="modulo">Модуль</param>
+    /// <param name="modul">Модуль</param>
     /// <returns>Число в степени</returns>
-    static BigInteger Power(BigInteger baseNumber, BigInteger exponent, BigInteger modulo)
+    static BigInteger Power(BigInteger baseNumber, BigInteger exponent, BigInteger modul)
     {
         // Для ускорения используется алгоритм быстрого возведения в степень (Exponentiation by Squaring)
         BigInteger result = 1;
-        baseNumber %= modulo;
+        baseNumber %= modul;
 
         while (exponent > 0)
         {
             if (exponent % 2 == 1)
             {
-                result = (result * baseNumber) % modulo;
+                result = (result * baseNumber) % modul;
             }
 
             exponent >>= 1;
-            baseNumber = (baseNumber * baseNumber) % modulo;
+            baseNumber = (baseNumber * baseNumber) % modul;
         }
 
         return result;

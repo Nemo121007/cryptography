@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "crypto2/1.0.0": {
+      "Crypto2/1.0.0": {
         "runtime": {
-          "crypto2.dll": {}
+          "Crypto2.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "crypto2/1.0.0": {
+    "Crypto2/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -13,8 +13,12 @@ class DiffieHellman
         // Генерация большого простого числа p
         BigInteger p = GenerateRandomPrime();
 
+        Console.WriteLine("p: "  + p.ToString());
+
         // Генерация примитивного элемента g, являющегося первообразным корнем
         BigInteger g = GeneratePrimitiveRoot(p);
+
+        Console.WriteLine("g: " + g.ToString());
 
         BigInteger publicKeyX, x;
         do
@@ -22,8 +26,12 @@ class DiffieHellman
             // Генерация закрытого ключа x для пользователя
             x = BigIntegerGenRandom(g, p);
 
+            Console.WriteLine("x: " + x.ToString());
+
             // Вычисление открытого ключей для остальных пользователей
             publicKeyX = Power(g, x, p);
+
+            Console.WriteLine("publicKeyX: " + publicKeyX.ToString());
         }
         while (publicKeyX == 1);
 
@@ -33,8 +41,12 @@ class DiffieHellman
             // Генерация закрытого ключа y для пользователя
             y = BigIntegerGenRandom(g, p);
 
+            Console.WriteLine("y: " + y.ToString());
+
             // Вычисление открытого ключей для остальных пользователей
             publicKeyY = Power(g, y, p);
+
+            Console.WriteLine("publicKeyY: " + publicKeyY.ToString());
         }
         while (publicKeyY == 1);
 
@@ -44,6 +56,7 @@ class DiffieHellman
         // Вычисление общего ключа для каждого пользователя
         BigInteger sharedKeyX = Power(publicKeyY, x, p);
         BigInteger sharedKeyY = Power(publicKeyX, y, p);
+
         // Вывод общих ключей
         Console.WriteLine($"Общий ключ для пользователя X: {sharedKeyX}");
         Console.WriteLine($"Общий ключ для пользователя Y: {sharedKeyY}");
@@ -137,23 +150,23 @@ class DiffieHellman
     /// </summary>
     /// <param name="baseNumber">Число</param>
     /// <param name="exponent">Степень</param>
-    /// <param name="modulo">Модуль</param>
+    /// <param name="modul">Модуль</param>
     /// <returns>Число в степени</returns>
-    static BigInteger Power(BigInteger baseNumber, BigInteger exponent, BigInteger modulo)
+    static BigInteger Power(BigInteger baseNumber, BigInteger exponent, BigInteger modul)
     {
         // Для ускорения используется алгоритм быстрого возведения в степень (Exponentiation by Squaring)
         BigInteger result = 1;
-        baseNumber %= modulo;
+        baseNumber %= modul;
 
         while (exponent > 0)
         {
             if (exponent % 2 == 1)
             {
-                result = (result * baseNumber) % modulo;
+                result = (result * baseNumber) % modul;
             }
 
             exponent >>= 1;
-            baseNumber = (baseNumber * baseNumber) % modulo;
+            baseNumber = (baseNumber * baseNumber) % modul;
         }
 
         return result;
